@@ -2,9 +2,7 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 @codewithsadee 
- */
+
 
 
 
@@ -351,7 +349,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   transform: translateX(calc(-100% - 40px));
   transition: 0.5s ease-in-out;
   z-index: 5;
-  animation: slideInOut 10s ease-in-out infinite;
+  animation: slideInOut 30s ease-in-out infinite;
 }
 
 @keyframes slideInOut {
